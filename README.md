@@ -50,7 +50,7 @@ This installs: `fastapi`, `uvicorn[standard]`, `selenium`, `webdriver-manager`, 
 ### 3. Start the server
 
 ```bash
-uvicorn backend.main:app --reload
+python -m uvicorn backend.main:app --reload
 ```
 
 ### 4. Open in browser
